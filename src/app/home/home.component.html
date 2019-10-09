@@ -1,0 +1,71 @@
+<div><br></div>
+<div class="container"><h1>Enter Personal details Below</h1></div>
+
+
+<div class="container">
+    <form (ngSubmit)="createemp1()">
+
+    <div class="form-group">
+        <label for="my-input">Employee name</label>
+        <input id="my-input" class="form-control" type="text" name="name" [(ngModel)]="name" placeholder="Enter name">
+    </div>
+    <div class="form-group">
+        <label for="my-input">DOB</label>
+        <input id="my-input" class="form-control" type="text" name="dob" [(ngModel)]="dob" placeholder="Enter date of birth in dd/mm/yyy">
+    </div>
+    <div class="form-group">
+        <label for="my-input">Home address</label>
+        <input id="my-input" class="form-control" type="text" name="address" [(ngModel)]="address" placeholder="Enter address">
+    </div>
+    <div class="form-group">
+        <label for="my-input">Phone</label>
+        <input id="my-input" class="form-control" type="number" name="phone" [(ngModel)]="phone" placeholder="Enter phone number">
+    </div>
+    <button class=" btn btn-info" type="submit"> Submit</button>
+</form>
+
+
+</div>
+<div class="container">
+<div><br></div>
+<div style="border:1px solid blue"></div>
+<div><br></div>
+</div>
+<div class="container"><h1>Enter Educational details Below</h1></div>
+
+
+<div class="container">
+    <form (ngSubmit)="createemp2()">
+
+    <div class="form-group">
+        <label for="my-input">Degree</label>
+        <input id="my-input" class="form-control" type="text" name="degree" [(ngModel)]="degree" placeholder="Enter degree">
+    </div>
+    <div class="form-group">
+        <label for="my-input">Marks</label>
+        <input id="my-input" class="form-control" type="number" name="marks" [(ngModel)]="marks" placeholder="Enter marks">
+    </div>
+    <div class="form-group">
+        <label for="my-input">Stream</label>
+        <input id="my-input" class="form-control" type="text" name="stream" [(ngModel)]="stram" placeholder="Enter stream">
+    </div>
+    <div class="form-group">
+        <label for="my-input">college</label>
+        <input id="my-input" class="form-control" type="text" name="college" [(ngModel)]="college" placeholder="Enter college">
+    </div>
+    <button class=" btn btn-info" type="submit"> Submit</button>
+</form>
+
+
+</div>
+<div class="container">
+        <div><br></div>
+        <div style="border:1px solid blue"></div>
+        <div><br></div>
+        </div>
+
+<div class="container" style="background-color: skyblue">
+    <p style="text-align: center">Contact HR</p>
+    <p style="text-align: center">About the Department</p>
+
+</div>

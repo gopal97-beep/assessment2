@@ -1,0 +1,9 @@
+
+<div><br></div>
+<div *ngFor="let s of per" class="container">
+    <p *ngIf="(s.id==1)">Employee name :{{s.name}}<br>Date of Birth :{{s.dob}}<br>Address: {{s.address}}<br>Phone no
+        :{{s.phone}}</p>
+        <a class="btn btn-primary" type="submit" routerLink="/edit">Edit</a>
+    <p *ngIf="(s.id==2)">Employee name :{{s.name}}<br>Date of Birth :{{s.dob}}<br>Address: {{s.address}}<br>Phone no
+        :{{s.phone}}</p>
+</div>
